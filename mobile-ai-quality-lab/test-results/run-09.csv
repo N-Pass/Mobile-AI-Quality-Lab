@@ -1,0 +1,43 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+10,"Respect a 40-word summary limit while preserving essential facts","02 - Language and Instructions",2,"Nicholas Passos",257000,Passed,"2026-10-18 19:18:12","1. Open a new conversation in the ChatGPT Android app and verify the planned environment.
+2. Submit the exact prompt from the Data field once and wait for the complete first response.
+3. Count the words in the complete response and compare it against all acceptance criteria.
+","1. 
+2. Resuma o texto abaixo em português do Brasil, usando no máximo 40 palavras, em um único parágrafo, sem título. Preserve a data, o intervalo de horário, o serviço afetado e o serviço que continuará funcionando. Não acrescente fatos.
+
+Para este pedido, conte como palavra cada elemento separado por espaços; números e horários também contam.
+
+Texto:
+
+O clube fictício Jardim do Lago informou que a piscina ficará fechada em 25 de novembro de 2026, das 8h às 12h, para manutenção do sistema de filtragem. Durante esse período, não será permitida a entrada de usuários na área da piscina. A academia continuará funcionando normalmente. O aviso foi colocado na recepção e enviado por e-mail aos associados. A administração orientou os usuários a planejarem suas atividades considerando a interdição temporária.
+3. 
+","1. A new conversation is ready, and the actual environment is recorded.
+2. The complete prompt is submitted and the first response is available for assessment.
+3. 1. The complete response contains no more than 40 words.
+2. The response is a single paragraph without a title.
+3. The response is written in Brazilian Portuguese.
+4. It preserves November 25, 2026 as the date of the closure.
+5. It preserves the closure interval from 08:00 to 12:00.
+6. The swimming pool is clearly identified as closed during that interval.
+7. The gym is correctly described as continuing to operate normally.
+8. No unsupported facts or contradictions are introduced.
+
+Counting rule: trim leading and trailing whitespace, then count each non-empty element separated by whitespace as one word. Numbers and times count as words; attached punctuation does not add words. Count all text in the response.
+
+Exactly 40 words is acceptable. Equivalent wording and unambiguous date formats are acceptable. Details not required above may be omitted.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual response:
+
+A piscina do clube Jardim do Lago ficará fechada em 25 de novembro de 2026, das 8h às 12h, para manutenção; a academia continuará funcionando normalmente.
+
+Word count:
+
+26 words, counting each whitespace-separated element as one word, including numbers and times.
+
+Assessment:
+
+All eight acceptance criteria were met. The response stays within the 40-word limit and uses a single paragraph in Brazilian Portuguese without a title. It preserves the closure date, time interval, affected service, and continued gym operation. No unsupported facts or contradictions were introduced.",,High,Major,Manual,Functional,,false,

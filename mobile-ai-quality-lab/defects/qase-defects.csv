@@ -1,0 +1,119 @@
+"id","title","test case id","author","assignee","actual result","status","milestone","severity","external issues","attachments","tags"
+"3","Summary omits the service resumption date and time required by the acceptance criteria","17","Nicholas Passos","Unassigned","Observed behavior:
+
+The summary preserves the library's general opening hours and the early closure of the borrowing and returns desk, but omits when the desk will resume service: December 11, 2026, at 08:00.
+
+Expected result:
+
+Include the desk's resumption date and time, as required by acceptance criterion 6, while preserving the general schedule, service restrictions, and available services.
+
+Steps to reproduce:
+
+1. Open a new, empty conversation in the Android app using Work / 6 Luna / High.
+
+2. Submit the exact prompt below once.
+
+3. Evaluate the complete first response without regeneration or corrective prompts.
+
+Exact prompt:
+
+Resuma o texto abaixo em duas frases, em português do Brasil, preservando o horário geral, a exceção e quais serviços continuam disponíveis. Não acrescente fatos.
+
+Texto:
+
+A biblioteca fictícia Alameda funcionará em 10 de dezembro de 2026, das 8h às 18h. Nesse dia, o balcão de empréstimos e devoluções encerrará o atendimento às 12h para uma atualização do sistema. Após as 12h, não será possível emprestar nem devolver livros, mas as salas de leitura e os computadores continuarão disponíveis até as 18h. O balcão retomará o atendimento em 11 de dezembro de 2026, às 8h.
+
+Actual response:
+
+A biblioteca fictícia Alameda funcionará em 10 de dezembro de 2026, das 8h às 18h, mas o balcão de empréstimos e devoluções encerrará o atendimento às 12h para uma atualização do sistema. Após esse horário, não será possível emprestar nem devolver livros, mas as salas de leitura e os computadores continuarão disponíveis até as 18h.
+
+Impact:
+
+Readers relying on the summary cannot determine when borrowing and returns will become available again.
+
+Assessment basis:
+
+This finding is an omission against the portfolio project's predefined acceptance criterion 6. The prompt does not explicitly request the resumption date, and no unsupported date was invented.
+
+Environment:
+
+ENV-001: Samsung Galaxy S24 FE; Android 16 / One UI 8.5; ChatGPT Android 1.2026.265; Plus; Work / 6 Luna / High; Brazilian Portuguese; Claro BR mobile data.
+
+Test reference:
+
+Run 16 - General Rule and Exception - Galaxy S24 FE
+
+Case: Preserve an exception to a general operating schedule
+
+Failed acceptance criterion: 6.
+
+Observation date:
+
+2026-10-18.
+
+Reproducibility:
+
+Observed in the initial execution. No repeat execution has been performed; recurrence is not yet established.
+
+Evidence:
+
+1000017656.jpg","Open","","Normal","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/2f023a911c4de08be9b0ac2657efebb9fd6223cd/attachment/b41fe4f9b749f4ce48e37711910e14fd3401e3de/Imagem%20do%20ChatGPT%2018%20de%20out.%20de%202026%2C%2022_26_44.jpg",""
+"2","Summary incorrectly places Camila's initial review after Bruno's error detection","14","Nicholas Passos","Unassigned","Observed behavior:
+
+The summary states: “Camila revisou e corrigiu o relatório após Bruno identificar dois valores incorretos”.
+
+This wording places both Camila's review and correction after Bruno detected the errors. In the source, Camila reviewed the report before sending it to Bruno; only the correction occurred after his findings.
+
+Expected result:
+
+Preserve the original sequence:
+
+1. Camila reviewed the report and sent it to Bruno.
+
+2. Bruno identified two incorrect values and returned the report.
+
+3. Camila corrected the values and sent the corrected version to Renata.
+
+Steps to reproduce:
+
+1. Open a new, empty conversation in the Android app using Work / 6 Luna / High.
+
+2. Submit the exact prompt below once.
+
+3. Evaluate the complete first response without regeneration or corrective prompts.
+
+Exact prompt:
+
+Resuma o texto abaixo em duas frases, em português do Brasil, preservando quem realizou cada ação e o que ainda está pendente. Não acrescente fatos.
+
+Texto:
+
+Na equipe fictícia do projeto Farol, Camila revisou o relatório e o enviou a Bruno. Bruno identificou dois valores incorretos e devolveu o documento a Camila, que corrigiu os dois valores. Depois, Camila enviou a versão corrigida a Renata, responsável pela aprovação final. Renata ainda não analisou essa versão. Bruno ficará responsável por enviar o relatório ao cliente somente após a aprovação de Renata. Até o momento, o cliente não recebeu o relatório.
+
+Impact:
+
+The summary can mislead readers about the order of completed actions.
+
+Environment:
+
+ENV-001: Samsung Galaxy S24 FE; Android 16 / One UI 8.5; ChatGPT Android 1.2026.265; Plus; Work / 6 Luna / High; Brazilian Portuguese; Claro BR mobile data.
+
+Test reference:
+
+Run 13 - People and Responsibilities - Galaxy S24 FE
+
+Case: Preserve people, responsibilities, and pending actions in a summary
+
+Failed acceptance criterion: 7.
+
+Observation date:
+
+2026-10-18.
+
+Reproducibility:
+
+Observed in the initial execution. No repeat execution has been performed; recurrence is not yet established.
+
+Evidence:
+
+1000017648.jpg","Open","","Normal","","https://d2cxucsjd6xvsd.cloudfront.net/public/team/2f023a911c4de08be9b0ac2657efebb9fd6223cd/attachment/6653d1ffe16ac1cfeb6a4e68b5f76a304ff01b24/Imagem%20do%20ChatGPT%2018%20de%20out.%20de%202026%2C%2018_45_28.jpg",""

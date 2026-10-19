@@ -1,0 +1,30 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+13,"Handle an offline message submission and recover after reconnecting","04 - Mobile Usability and Connectivity",4,"Nicholas Passos",289000,Passed,"2026-10-18 20:46:02","1. Em uma conversa nova, cole o prompt abaixo, sem enviar.
+2. Desative os dados móveis e confirme que o Wi-Fi também está desligado. Volte ao aplicativo.
+3. Toque em enviar uma única vez. Observe por até 60 segundos e capture a tela.
+4. Reative os dados móveis Claro BR e volte ao aplicativo. Se houver opção de tentar novamente, use-a uma vez; se o texto continuar no campo sem envio pendente, envie uma vez.
+5. Aguarde até 120 segundos e confira a conversa.
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. O texto completo aparece no campo de mensagem.
+2. O aparelho permanece sem conexão com a internet.
+3. O aplicativo mostra erro de conexão, estado pendente ou envio indisponível. O texto permanece visível ou recuperável.
+4. O envio pode ser retomado sem precisar reescrever o texto.
+5. Uma resposta é concluída, sem mensagens duplicadas, travamento ou necessidade de reiniciar o aplicativo.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+","1. 
+2. 
+3. 
+4. 
+5. ","Recovery verification:
+
+After restoring connectivity, the tester pressed the retry control. The response completed in well under 120 seconds, without freezing or restarting the app.
+
+Final result: Passed.",,High,Normal,Manual,Functional,,false,

@@ -1,0 +1,91 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+2,"Preserve the updated meeting date and time in a Portuguese summary","01 - Summary Accuracy",1,"Nicholas Passos",334000,Passed,"2026-10-18 01:55:03","1. Open a new conversation in the ChatGPT Android app and verify the configuration specified in the preconditions.
+2. Paste the exact prompt provided in Data into the message field without sending it yet.
+3. Send the message once and wait for the response to finish. Record any error or interruption. Do not regenerate the response or send corrective instructions during this execution.
+4. Compare the complete response with the source text and the acceptance criteria below. Save the submitted prompt and response as execution evidence.
+","1. 
+2. Resuma o texto abaixo em duas frases, em português do Brasil, preservando as informações essenciais e sem acrescentar fatos.
+
+Texto:
+
+A equipe do projeto fictício Horizonte havia marcado uma reunião para 12 de novembro de 2026, às 10h30, na sala 204. Como a sala ficará em manutenção, esse agendamento foi cancelado. A reunião foi remarcada para 13 de novembro de 2026, às 14h45, na sala 305, no mesmo prédio. Todos os horários mencionados são de Brasília. A duração prevista continua sendo de 45 minutos. A coordenadora pediu que os participantes atualizem suas agendas e desconsiderem a data, o horário e a sala informados no convite anterior.
+3. 
+4. 
+","1. A new conversation with no previous messages is available. The selected mode, model, and reasoning level match the recorded test environment.
+2. The complete prompt is present in the message field, with no missing or altered text.
+3. The submitted message appears in the conversation and the app displays a complete, readable summary.
+4. 1. The summary identifies November 13, 2026, as the current meeting date.
+
+2. It identifies 14:45, Brasilia time, as the current start time.
+
+3. It identifies room 305 as the current location.
+
+4. It preserves the planned duration of 45 minutes.
+
+5. It makes clear that the meeting was rescheduled. If the previous date, time, or room is mentioned, it is explicitly presented as superseded, not as a second valid meeting.
+
+6. It adds no unsupported facts.
+
+7. It is written in Brazilian Portuguese and contains two sentences.
+
+Equivalent wording and unambiguous date/time formats are acceptable. Exact wording is not required.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+","1. 
+2. 
+3. 
+4. ","Actual response:
+
+A reunião do projeto Horizonte, antes marcada para 12 de novembro de 2026, às 10h30, na sala 204, foi cancelada por causa da manutenção e remarcada para 13 de novembro, às 14h45, na sala 305 do mesmo prédio, todos os horários de Brasília. A duração prevista permanece em 45 minutos, e a coordenadora pediu que os participantes atualizem suas agendas e desconsiderem a data, o horário e a sala do convite anterior.
+
+Content assessment:
+
+All seven acceptance criteria were met. The updated date, time, time zone, room, and duration are preserved. The previous schedule is explicitly superseded. The year 2026 remains unambiguous within the same sentence. No unsupported facts were identified. The response contains two sentences in Brazilian Portuguese.",,High,Major,Manual,Functional,"summarization,pt-BR,date-time",false,
+3,"Preserve total, paid, and outstanding amounts in an English summary","01 - Summary Accuracy",1,"Nicholas Passos",106000,Passed,"2026-10-18 02:00:19","1. Open a new conversation in the ChatGPT Android app and verify the configuration specified in the preconditions. Keep the app interface language set to Brazilian Portuguese.
+2. Paste the exact prompt provided in Data into the message field without sending it yet.
+3. Send the message once and wait for the response to finish. Record any error or interruption. Do not regenerate the response or send corrective instructions during this execution.
+4. Compare the complete response with the source text and the acceptance criteria below. Save the submitted prompt and response as execution evidence.
+","1. 
+2. Summarize the following text in two sentences in American English, preserving the essential information without adding facts.
+
+Text:
+
+The fictional store Maple Supplies issued order 2085 to Jordan Lee for eight notebooks. The merchandise subtotal was USD 96.00. A discount of USD 16.00 reduced the merchandise amount to USD 80.00, and a delivery fee of USD 5.00 brought the final order total to USD 85.00. Jordan has already paid USD 30.00. The remaining balance is USD 55.00 and has not yet been paid. The store emailed Jordan a payment reminder but did not specify a payment deadline.
+3. 
+4. 
+","1. A new conversation with no previous messages is available. The configuration matches the recorded test environment, and the app interface remains in Brazilian Portuguese.
+2. The complete English prompt is present in the message field, with no missing or altered text.
+3. The submitted message appears in the conversation and the app displays a complete, readable summary.
+4. 1. The summary identifies USD 85.00 as the final order total.
+
+2. It identifies USD 30.00 as the amount already paid.
+
+3. It identifies USD 55.00 as the outstanding, unpaid balance.
+
+4. The currency is unambiguously identified as US dollars.
+
+5. It does not imply that the order has been fully paid or confuse the subtotal with the final total.
+
+6. Any additional amounts, quantities, names, or identifiers included match the source text.
+
+7. It adds no unsupported facts, including a payment deadline.
+
+8. It is written in American English and contains two sentences.
+
+Equivalent wording and numeric formatting are acceptable. For example, USD 85 and US$85.00 represent the same amount. Exact wording is not required.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+","1. 
+2. 
+3. 
+4. ","Actual response:
+
+The fictional store Maple Supplies issued order 2085 to Jordan Lee for eight notebooks, with a merchandise subtotal of USD 96.00 reduced to USD 80.00 by a USD 16.00 discount, plus a USD 5.00 delivery fee, bringing the final total to USD 85.00. Jordan has paid USD 30.00, leaving an unpaid balance of USD 55.00, and the store emailed a payment reminder without specifying a payment deadline.
+
+Content assessment:
+
+All eight acceptance criteria were met. The summary correctly distinguishes the final total of USD 85.00, the paid amount of USD 30.00, and the unpaid balance of USD 55.00. Currency and partial-payment status are explicit. All additional details match the source. No unsupported facts or payment deadline were introduced. The response contains two sentences in American English.",,High,Major,Manual,Functional,"summarization,en-US,monetary-values",false,

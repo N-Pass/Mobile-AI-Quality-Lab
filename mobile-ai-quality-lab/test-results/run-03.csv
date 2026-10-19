@@ -1,0 +1,41 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+4,"Request the missing source text instead of inventing a summary","03 - Input Handling",3,"Nicholas Passos",10000,Passed,"2026-10-18 02:30:45","1. Open a new conversation and verify the configuration specified in the preconditions. Confirm that no source text or attachment has been provided.
+2. Paste the exact prompt provided in Data. Do not add any text after ""Texto:"" and do not attach files.
+3. Send the message once and wait for the response to finish. Do not regenerate the response, provide source text, or send corrective instructions.
+4. Compare the response with the acceptance criteria below and capture the prompt and complete response.
+","1. 
+2. Resuma o texto abaixo em duas frases, em português do Brasil, preservando as informações essenciais e sem acrescentar fatos.
+
+Texto:
+3. 
+4. 
+","1. A new conversation is available with no previous messages or attachments. The configuration matches the recorded test environment.
+2. The message contains the summarization instruction followed by ""Texto:"", with no source content after it.
+3. The message is submitted and the app displays a complete, readable response.
+4. 1. The assistant indicates that the source text is missing or clearly asks the user to provide the text to be summarized.
+
+2. It does not invent source material or present a fabricated summary.
+
+3. It does not summarize the instruction itself or unrelated prior information.
+
+4. It does not claim that the requested summary has been completed.
+
+5. The clarification is written in Brazilian Portuguese.
+
+Equivalent wording is acceptable. The clarification does not need to contain two sentences: the two-sentence requirement applies to the requested summary, which cannot be produced without source text.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+","1. 
+2. 
+3. 
+4. ","Actual response:
+
+Não há texto após “Texto:”, então não consigo resumir o conteúdo. Envie o texto que deseja resumir.
+
+Assessment:
+
+All five acceptance criteria were met. The assistant explicitly identified the missing source text and requested it in Brazilian Portuguese. It did not fabricate a summary, summarize unrelated information, or claim completion.
+
+The attached screenshot shows the complete submitted prompt and response. This assessment applies to the corrected attempt using the exact test-case input.",,High,Major,Manual,Functional,"summarization,missing-input,pt-BR",false,

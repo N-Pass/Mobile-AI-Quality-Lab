@@ -1,0 +1,42 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+7,"Preserve uncertainty and conditions in a Portuguese summary","01 - Summary Accuracy",1,"Nicholas Passos",21000,Passed,"2026-10-18 11:12:46","1. Open a new conversation in the ChatGPT Android app and verify the planned environment.
+2. Submit the exact prompt from the Data field once and wait for the complete first response.
+3. Compare the complete response against all acceptance criteria.
+","1. 
+2. Resuma o texto abaixo em duas frases, em português do Brasil, preservando as informações essenciais e sem acrescentar fatos.
+
+Texto:
+
+A empresa fictícia Brisa está avaliando lançar um aplicativo de organização pessoal em dezembro de 2026, mas essa previsão ainda não foi confirmada. O lançamento depende da conclusão dos testes de segurança e da aprovação do orçamento, que continua em análise. Se os testes identificarem falhas críticas, o lançamento será adiado, mas nenhuma nova data foi definida. A equipe está considerando oferecer uma versão gratuita, porém essa decisão também não foi aprovada. Até o momento, não há inscrições abertas para usuários.
+3. 
+","1. A new conversation is ready, and the actual environment is recorded.
+2. The complete prompt is submitted and the first response is available for assessment.
+3. 1. December 2026 is presented as a tentative launch date, not a confirmed commitment.
+
+2. The launch remains dependent on completion of security testing and budget approval; neither is presented as completed or approved.
+
+3. Postponement remains conditional on critical findings in testing, rather than being presented as already decided.
+
+4. No replacement launch date is invented.
+
+5. A free version remains under consideration and is not presented as approved or guaranteed.
+
+6. User registration is described as not yet open.
+
+7. The response contains exactly two sentences in Brazilian Portuguese.
+
+8. No unsupported facts or contradictions are introduced.
+
+Equivalent wording is acceptable when it preserves the original degree of certainty and the stated conditions.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual response:
+
+A empresa fictícia Brisa avalia lançar um aplicativo de organização pessoal em dezembro de 2026, mas a previsão não foi confirmada e depende da conclusão dos testes de segurança e da aprovação do orçamento, ainda em análise. Se forem identificadas falhas críticas, o lançamento será adiado sem nova data definida; a versão gratuita também está em avaliação, sem aprovação, e ainda não há inscrições abertas para usuários.
+
+Assessment:
+
+All eight acceptance criteria were met. The response preserves the tentative launch date, pending prerequisites, conditional postponement, unapproved free version, and closed registration. It contains exactly two sentences in Brazilian Portuguese, without unsupported facts or contradictions.",,High,Major,Manual,Functional,,false,

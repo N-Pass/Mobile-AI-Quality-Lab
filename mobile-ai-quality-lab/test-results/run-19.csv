@@ -1,0 +1,40 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+20,"Retrieve a completed conversation after closing and reopening the Android app","04 - Mobile Usability and Connectivity",4,"Nicholas Passos",331000,Passed,"2026-10-18 21:36:28","1. Abra a conversa da **remessa 5820**, confira a resposta e faça um print antes de fechar.
+2. Abra os aplicativos recentes do Android e deslize o cartão do ChatGPT para removê-lo da lista.
+3. Abra novamente o ChatGPT pelo ícone.
+4. Se a conversa não abrir automaticamente, localize-a no histórico e abra.
+5. Role para conferir o pedido e a resposta completa. Toque no campo de mensagem, sem digitar ou enviar, e capture a resposta novamente.
+","1. 
+2. 
+3. 
+4. 
+5. 
+","1. O pedido e a resposta original estão acessíveis, sem geração em andamento.
+2. O cartão do aplicativo deixa de aparecer nos recentes.
+3. O aplicativo abre sem erro ou solicitação inesperada de login.
+4. A conversa da remessa 5820 pode ser recuperada.
+5. O conteúdo permanece intacto e os controles respondem normalmente.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+","1. 
+2. 
+3. 
+4. 
+5. ","Actual result:
+
+The tester removed ChatGPT from Android Recent Apps and reopened it. The app displayed its initial screen, and the tester retrieved the previous conversation through history. Recovery was quick and no login was requested.
+
+The visible response matches the before-closing screenshot.
+
+Execution deviation:
+
+The conversation containing the test instructions was used instead of the planned Rota Clara conversation.<br/><br/>The original message and complete response remained accessible. Scrolling and tapping the message input field worked normally.
+
+Final result: Passed.<br/><br/>Additional verification:
+
+The tester confirmed that tapping the message input field worked normally after retrieving the conversation.
+
+Final result: Passed.",,High,Major,Manual,Functional,,false,

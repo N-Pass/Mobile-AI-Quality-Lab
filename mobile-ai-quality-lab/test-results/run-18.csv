@@ -1,0 +1,28 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+19,"Follow a format change in the same conversation while preserving source facts","02 - Language and Instructions",2,"Nicholas Passos",115000,Passed,"2026-10-18 21:26:47","1. Envie o primeiro prompt e aguarde a resposta completa. Capture a tela.
+2. Na **mesma conversa**, envie o segundo prompt e aguarde a resposta completa.
+3. Capture a segunda resposta e compare com os critérios abaixo.
+","1. 
+2. 
+3. 
+","1. Resumo em duas frases, em pt-BR, preservando os fatos do texto.
+2. A nova resposta tem exatamente três tópicos e mantém as informações solicitadas.
+3. As duas respostas e a mudança de instrução ficam documentadas.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual result:
+
+The initial response met the two-sentence summary requirements.
+
+Following the second prompt in the same conversation, the assistant produced exactly three bullet points in Brazilian Portuguese, without a title, introduction, conclusion, or sub-bullets.
+
+The bullets follow the requested order and preserve the cancellation details, 12 registrants notified by email, R$ 40.00 paid per person, and full refund due by December 18, 2026 but not yet processed. No new workshop date or unsupported facts were added.
+
+Assessment:
+
+Step 1 and all six follow-up acceptance criteria were met.
+
+Final result: Passed.",,High,Major,Manual,Functional,,false,

@@ -1,0 +1,47 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+11,"Copy a complete summary without losing or changing text on Android","04 - Mobile Usability and Connectivity",4,"Nicholas Passos",1354000,Passed,"2026-10-18 19:43:52","1. Open the conversation containing the swimming pool summary and compare the original response with the baseline text.
+2. Tap the copy icon directly below the assistant response.
+3. Open a new conversation, press and hold the message input field, and select Paste. Do not send the message.
+4. Compare the complete pasted draft with the baseline text and capture evidence.
+","1. Open the conversation containing the swimming pool summary and compare the original response with the baseline text.
+2. 
+3. 
+4. 
+","1. The complete original response is available and matches the baseline text.
+2. The copy action is available and can be activated without an error.
+3. The copied response appears in the message input field as an editable draft.
+4. 1. The entire response is pasted, from the initial ""A piscina"" to the final ""normalmente.""
+
+2. No words are missing, duplicated, reordered, or added.
+
+3. Accented characters are preserved, including ""ficará"", ""às"", ""manutenção"" and ""continuará"".
+
+4. The date and times are preserved exactly as displayed in the original response.
+
+5. Punctuation is preserved, including commas, the semicolon, and the final period.
+
+6. No prompt text or interface labels are included.
+
+7. The app remains responsive during copying and pasting.
+
+Automatic visual line wrapping is acceptable and is not a text change. Ignore leading or trailing whitespace when comparing.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+","1. 
+2. 
+3. 
+4. ","Actual result:
+
+The pasted, unsent draft visually matches the complete baseline response. Words, accented characters, date, times, and punctuation are preserved. No prompt text or interface labels were included.
+
+Environment deviation:
+
+The destination conversation displayed Work / 6 Luna / Medium reasoning instead of the planned High setting. No new response was generated during this attempt.
+
+Assessment:
+
+Text-integrity criteria 1–6 were met. App responsiveness must be confirmed by the tester.
+
+The original response was copied using its copy icon and pasted without manual editing. No errors or freezing were observed. Criterion 7 was met. Final result: Passed.",,High,Major,Manual,Functional,,false,

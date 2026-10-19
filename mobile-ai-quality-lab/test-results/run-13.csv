@@ -1,0 +1,16 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+14,"Preserve people, responsibilities, and pending actions in a summary","01 - Summary Accuracy",1,"Nicholas Passos",18000,Failed,"2026-10-18 21:04:43","1. Abra uma conversa nova e envie o prompt abaixo uma única vez.
+2. Compare a primeira resposta com os critérios abaixo.
+3. Capture o prompt e a resposta completa.
+","1. 
+2. 
+3. 
+","1. O aplicativo aceita a mensagem e apresenta uma resposta completa.
+2. O resumo contém duas frases em pt-BR, com as pessoas e suas responsabilidades corretas.
+3. As evidências permitem conferir o conteúdo enviado e recebido.
+","1. Passed
+2. Failed
+3. Untested
+","1. 
+2. 
+3. ","Actual result:The response contains two sentences in Brazilian Portuguese and correctly preserves the participants, pending approval, and conditional delivery to the client.However, “Camila revisou e corrigiu o relatório após Bruno identificar dois valores incorretos” places both Camila's review and correction after Bruno identified the errors.Expected result:Preserve the original sequence: Camila reviewed the report before sending it to Bruno; Bruno then identified two incorrect values; Camila subsequently corrected them.Assessment:Criteria 1–6: Passed.Criterion 7: Failed due to an unsupported change in event chronology.Final result: Failed.",,High,Major,Manual,Functional,,false,

@@ -1,0 +1,42 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+8,"Preserve conflicting information without inventing a resolution","03 - Input Handling",3,"Nicholas Passos",82000,Passed,"2026-10-18 11:19:17","1. Open a new conversation in the ChatGPT Android app and verify the planned environment.
+2. Submit the exact prompt from the Data field once and wait for the complete first response.
+3. Compare the complete response against all acceptance criteria.
+","1. 
+2. Resuma o texto abaixo em duas frases, em português do Brasil, preservando as informações essenciais e sem acrescentar fatos.
+
+Texto:
+
+O centro cultural fictício Pátio Azul divulgou dois comunicados sobre a mesma oficina de fotografia. Um comunicado informa que a oficina acontecerá em 7 de dezembro de 2026, às 15h, na sala 4. O outro informa que ela acontecerá em 9 de dezembro de 2026, também às 15h, na sala 4. Os comunicados não têm data de publicação e nenhum deles indica que substitui ou corrige o outro. A organização ainda não confirmou qual é a data correta. A participação será gratuita, com 15 vagas, e as inscrições ainda não foram abertas.
+3. 
+","1. A new conversation is ready, and the actual environment is recorded.
+2. The complete prompt is submitted and the first response is available for assessment.
+3. 1. The response explicitly identifies a conflict between December 7 and December 9, 2026, for the same workshop.
+
+2. Neither date is presented as confirmed, corrected, newer, or authoritative.
+
+3. The response preserves that the organizer has not confirmed the correct date.
+
+4. The response does not invent a rescheduling, cancellation, second session, or explanation for the discrepancy.
+
+5. The shared time of 15:00 and room 4 are preserved.
+
+6. Free participation, the capacity of 15 participants, and registration not yet being open are preserved.
+
+7. The response contains exactly two sentences in Brazilian Portuguese.
+
+8. No unsupported facts or contradictions are introduced.
+
+Equivalent wording and unambiguous date formats are acceptable. Reporting the unresolved conflict is the expected behavior.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual response:
+
+O centro cultural Pátio Azul divulgou dois comunicados sobre a mesma oficina de fotografia, com datas diferentes: 7 e 9 de dezembro de 2026, às 15h, na sala 4; nenhum deles indica que substitui ou corrige o outro, e a data correta ainda não foi confirmada. A participação será gratuita, haverá 15 vagas e as inscrições ainda não foram abertas.
+
+Assessment:
+
+All eight acceptance criteria were met. The response explicitly preserves the conflicting dates for the same workshop without selecting either as confirmed. It does not invent a rescheduling, cancellation, second session, or explanation. Shared event details and registration status are preserved in exactly two sentences in Brazilian Portuguese.",,High,Major,Manual,Functional,,false,

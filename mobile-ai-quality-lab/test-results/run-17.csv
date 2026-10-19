@@ -1,0 +1,28 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+18,"Preserve quantities, measurement units, and per-item versus total values","01 - Summary Accuracy",1,"Nicholas Passos",66000,Passed,"2026-10-18 21:22:11","1. Abra uma conversa nova e envie o prompt abaixo uma vez.
+2. Compare a primeira resposta com os critérios abaixo.
+3. Capture o prompt e a resposta completa.
+","1. 
+2. 
+3. 
+","1. Uma resposta completa é apresentada.
+2. O resumo mantém os valores, suas unidades e a distinção entre cada caixa e o conjunto.
+3. As evidências permitem conferir todos os valores.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual result:
+
+The response contains exactly two sentences in Brazilian Portuguese. It preserves shipment 5820, four boxes, 2.5 kg per box, and 10 kg total.
+
+Each box's dimensions are correctly identified as 30 cm length, 20 cm width, and 15 cm height. The original units are preserved.
+
+The shipment remains awaiting carrier pickup and has not yet been sent. No delivery estimate or unsupported facts were added.
+
+Assessment:
+
+All eight acceptance criteria were met.
+
+Final result: Passed.",,High,Major,Manual,Functional,,false,

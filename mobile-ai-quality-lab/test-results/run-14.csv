@@ -1,0 +1,28 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+15,"Summarize only the requested section without mixing information","02 - Language and Instructions",2,"Nicholas Passos",85000,Passed,"2026-10-18 21:08:53","1. Abra uma conversa nova e envie o prompt abaixo uma vez.
+2. Compare a primeira resposta com os critérios abaixo.
+3. Capture o prompt e a resposta completa.
+","1. 
+2. 
+3. 
+","1. Uma resposta completa é apresentada.
+2. O resumo atende ao formato e inclui somente informações do Aviso B.
+3. As evidências permitem comparar os dois avisos com o resumo.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual result:
+
+The response contains exactly two sentences in Brazilian Portuguese and summarizes only Notice B.
+
+It correctly preserves Estação Sul, the ceramics workshop, December 8, 2026, 14:00–17:00, and in-person registration at reception. It also preserves the requirement to bring an apron and states that clay and tools are provided.
+
+No price or capacity was invented, and no facts exclusive to Notice A were included.
+
+Assessment:
+
+All seven acceptance criteria were met.
+
+Final result: Passed.",,High,Major,Manual,Functional,,false,

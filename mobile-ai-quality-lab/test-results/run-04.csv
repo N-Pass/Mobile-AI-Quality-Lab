@@ -1,0 +1,40 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+5,"Summarize an English source text in Brazilian Portuguese","02 - Language and Instructions",2,"Nicholas Passos",98000,Passed,"2026-10-18 02:42:50","1. Open a new conversation in the ChatGPT Android app and verify the planned environment.
+2. Paste the exact prompt from the Data field and send it once.
+3. Wait for the complete first response and compare it against all acceptance criteria.
+","1. 
+2. Resuma o texto abaixo em duas frases, em português do Brasil, preservando as informações essenciais e sem acrescentar fatos.
+
+Texto:
+
+The fictional store Maple Supplies issued order 2085 to Jordan Lee for eight notebooks. The merchandise subtotal was USD 96.00. A discount of USD 16.00 reduced the merchandise amount to USD 80.00, and a delivery fee of USD 5.00 brought the final order total to USD 85.00. Jordan has already paid USD 30.00. The remaining balance is USD 55.00 and has not yet been paid. The store emailed Jordan a payment reminder but did not specify a payment deadline.
+3. 
+","1. A new conversation is ready. The actual environment and any deviations are recorded.
+2. The complete prompt is submitted, including the English source text and the instruction requesting Brazilian Portuguese.
+3. 1. The response is written in Brazilian Portuguese. Proper names and the currency code USD may remain unchanged.
+
+2. The response contains exactly two sentences, without an additional introduction or closing note.
+
+3. The final order total is correctly identified as USD 85.00.
+
+4. The amount already paid is correctly identified as USD 30.00.
+
+5. The outstanding balance is correctly identified as USD 55.00 and remains unpaid.
+
+6. The currency remains unambiguous, with no conversion to Brazilian reais.
+
+7. Any additional details included match the source. No payment deadline or other unsupported fact is invented.
+
+Equivalent wording and Brazilian number formatting are acceptable. Decimal separators do not count as sentence boundaries.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual response:
+
+A loja fictícia Maple Supplies emitiu o pedido 2085 para Jordan Lee, com oito cadernos: o subtotal de USD 96,00 recebeu um desconto de USD 16,00 e, somada a taxa de entrega de USD 5,00, o total ficou em USD 85,00. Jordan já pagou USD 30,00 e ainda deve USD 55,00; a loja enviou um lembrete de pagamento por e-mail, sem informar um prazo.
+
+Assessment:
+
+All seven acceptance criteria were met. The response uses Brazilian Portuguese and exactly two sentences. It correctly preserves the final total, amount paid, outstanding balance, and USD currency. Additional details match the source, and no payment deadline or other unsupported fact was invented.",,High,Major,Manual,Functional,,false,

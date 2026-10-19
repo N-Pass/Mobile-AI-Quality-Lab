@@ -1,0 +1,240 @@
+{
+  "purpose": "Unchanged source-file mapping for the repository package",
+  "files": [
+    {
+      "original_filename": "MAQL-Pilot+Run+01+-+Portuguese+Negation+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-01.csv",
+      "sha256": "3404a0f632ba9e329087de44ef10d59151d544b45b9af84f2195b38c528c39f7"
+    },
+    {
+      "original_filename": "MAQL-Run+02+-+Updated+Schedule+and+Payment+Amounts+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-02.csv",
+      "sha256": "efc063a7546c7538b5f33901878cc7131408c024d37950bec2a368f06985a0ae"
+    },
+    {
+      "original_filename": "MAQL-Run+03+-+Missing+Source+Text+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-03.csv",
+      "sha256": "689a404df799326cd90abe1a2a9ff36cafa184c2606a575d9ed67d841a15c91e"
+    },
+    {
+      "original_filename": "MAQL-Run+04+-+English+Source+to+Portuguese+Summary+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-04.csv",
+      "sha256": "a80ea8ce7f1a61d8ce5463d4f95ffe831fa1fe3c32f20928161f3ee24beae3e5"
+    },
+    {
+      "original_filename": "MAQL-Run+05+-+Three-Bullet+Summary+Format+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-05.csv",
+      "sha256": "be03f20720e33c9d37cbe60aa8cc2b373b0517bbd353fc95e9720e9942ffbe55"
+    },
+    {
+      "original_filename": "MAQL-Run+06+-+Uncertainty+and+Conditional+Outcomes+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-06.csv",
+      "sha256": "85ffd26315f29e890e37bbe3b992a52f02d36a8028462d6a3cdfbee3a1e14c97"
+    },
+    {
+      "original_filename": "MAQL-Run+07+-+Conflicting+Dates+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-07.csv",
+      "sha256": "77c87968876ef831ab2e8f8085bc49d7c403c331907d952aa85387a05cd0fd30"
+    },
+    {
+      "original_filename": "MAQL-Run+08+-+Embedded+Instruction+Handling+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-08.csv",
+      "sha256": "986b24fd491419bdbbdd1ebe46f37e7d7ee84d87653c2694dbcf40890c555296"
+    },
+    {
+      "original_filename": "MAQL-Run+09+-+Maximum+40+Words+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-09.csv",
+      "sha256": "becec426b8714952afe0dc36a3319da555a817ee3dc34550107991d8a2b33f79"
+    },
+    {
+      "original_filename": "MAQL-Run+10+-+Copy+and+Paste+Summary+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-10.csv",
+      "sha256": "c291785575b04157ef1524e26ac42580c48441ad0eb97ff0b02f918def0b8f4f"
+    },
+    {
+      "original_filename": "MAQL-Run+11+-+Background+and+Resume+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-11.csv",
+      "sha256": "a5213fbcc5e8e718436242f1c615e04536bf700fb88c6327e520cc061b9c5dab"
+    },
+    {
+      "original_filename": "MAQL-Run+12+-+Offline+Submission+and+Recovery+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-12.csv",
+      "sha256": "ace63351332168857d0db4ddef5a60a01fba7e1105236383c5373bc9f41b727d"
+    },
+    {
+      "original_filename": "MAQL-Run+13+-+People+and+Responsibilities+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-13.csv",
+      "sha256": "da799b71cb5943c7b41e0c5af2506bd9aac25be970b8adaa7d019a488a8a0c37"
+    },
+    {
+      "original_filename": "MAQL-Run+14+-+Requested+Section+Only+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-14.csv",
+      "sha256": "8e8d808c3277725a6383342e2656c1cb61aa1d2c511fa430f2ddfbf7f09556a1"
+    },
+    {
+      "original_filename": "MAQL-Run+15+-+Incomplete+Source+Text+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-15.csv",
+      "sha256": "130ef95ca673caaa1b8858784529b26d1277eddc266d48111311a83100b22aa2"
+    },
+    {
+      "original_filename": "MAQL-Run+16+-+General+Rule+and+Exception+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-16.csv",
+      "sha256": "7a59915334fe65c901787a48d35ae477abb3cfe3271f61809baf5bec521a6073"
+    },
+    {
+      "original_filename": "MAQL-Run+17+-+Quantities+and+Measurement+Units+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-17.csv",
+      "sha256": "069831c447f5829d22ba0cb75d12fadda5c301f7b0626dbaf43df4d76c9ab9b1"
+    },
+    {
+      "original_filename": "MAQL-Run+18+-+Follow-up+Format+Change+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-18.csv",
+      "sha256": "f64393492313c168ded7d0d2334e96812d8bd99b42fd71d743241ab9ca15427a"
+    },
+    {
+      "original_filename": "MAQL-Run+19+-+Conversation+Recovery+After+Reopening+-+Galaxy+S24+FE.csv",
+      "package_path": "test-results/run-19.csv",
+      "sha256": "492a59d091756ef16023283e375ec215d3967c248ceb1d5e5e26ffa0a1ca06a1"
+    },
+    {
+      "original_filename": "MAQL-2026-10-19 (5).json",
+      "package_path": "test-cases/qase-repository.json",
+      "sha256": "3801702d57cfd8a1736752e71cb0651dc8fbc2c039cae02c687ae6d5afd07cf7"
+    },
+    {
+      "original_filename": "MAQL-2026-10-19.csv",
+      "package_path": "defects/qase-defects.csv",
+      "sha256": "9bfabe170eeaedfa46297a8158b1ef7507d48ae54cbdfd8fb010f609a2cd6847"
+    },
+    {
+      "original_filename": "MAQL-Run 13 - People and Responsibilities - Galaxy S24 FE.pdf",
+      "package_path": "test-results/failure-reports/run-13.pdf",
+      "sha256": "c321336e8fa9dc5c72868cde1d7e75de16737064c167e3cac5fe6918556ce7fa"
+    },
+    {
+      "original_filename": "MAQL-Run 16 - General Rule and Exception - Galaxy S24 FE.pdf",
+      "package_path": "test-results/failure-reports/run-16.pdf",
+      "sha256": "f94e5adc14b3d0d65d2674e1af87d4ba35da27ff8e3777dacda7931d79297247"
+    },
+    {
+      "original_filename": "01-1000017587.jpg",
+      "package_path": "evidence/MAQL-02/01-response.jpg",
+      "sha256": "68338e25d5c339db8c0fd0a379c797293dfe2e5d28994545f8c0680a927646d1"
+    },
+    {
+      "original_filename": "01-1000017589.jpg",
+      "package_path": "evidence/MAQL-03/01-response.jpg",
+      "sha256": "e5672c1daa6f8430224ab3ac292989f035a489844375899ba93042ffc3c85768"
+    },
+    {
+      "original_filename": "01-1000017595.jpg",
+      "package_path": "evidence/MAQL-04/01-missing-text-response.jpg",
+      "sha256": "f1af5247256879b38653fe2316bd2bd41b4537692173fadc5a85f023ccdf6e9a"
+    },
+    {
+      "original_filename": "01-1000017597.jpg",
+      "package_path": "evidence/MAQL-05/01-response.jpg",
+      "sha256": "f951a59288379c887228c0e35d0c2d34f30115f68af17106088854ec62b95b24"
+    },
+    {
+      "original_filename": "01-1000017599.jpg",
+      "package_path": "evidence/MAQL-06/01-three-bullets.jpg",
+      "sha256": "92c1e3a5932f7c947f4687d9f78ce956a527d3c10ec499ee25004bce066a2813"
+    },
+    {
+      "original_filename": "01-1000017619.jpg",
+      "package_path": "evidence/MAQL-07/01-response.jpg",
+      "sha256": "7f6e7f96449eaadace9d7da9301d1a2af1fb9cd8538dec499d25c9a7878591e3"
+    },
+    {
+      "original_filename": "01-1000017621.jpg",
+      "package_path": "evidence/MAQL-08/01-response.jpg",
+      "sha256": "8f012c0fec3d10a095e127d6ae86271c851ae28d3e741dfbad646636046c2bc1"
+    },
+    {
+      "original_filename": "01-1000017623.jpg",
+      "package_path": "evidence/MAQL-09/01-response.jpg",
+      "sha256": "71640906001f9d589ddee003a649bf1fabc6e05a9004f02c9f21985d2996c2eb"
+    },
+    {
+      "original_filename": "01-1000017628.jpg",
+      "package_path": "evidence/MAQL-10/01-baseline-response.jpg",
+      "sha256": "cda2179ff9968a08579a1d810f18b33c69b8b62a9beb86ef2590cc873939c947"
+    },
+    {
+      "original_filename": "01-1000017634.jpg",
+      "package_path": "evidence/MAQL-11/01-pasted-unsent-draft-medium.jpg",
+      "sha256": "054fed923c30826af14d7135f4b6ac34f2a3d543fe4f7be7f76f172ca9fe945b"
+    },
+    {
+      "original_filename": "02-1000017640.jpg",
+      "package_path": "evidence/MAQL-12/01-before-background.jpg",
+      "sha256": "1b4c2b627d7d8bf5a64e0d60f76ebb055bba357c48c8d82e815adfaed494ff42"
+    },
+    {
+      "original_filename": "01-1000017642.jpg",
+      "package_path": "evidence/MAQL-12/02-after-resume.jpg",
+      "sha256": "a6f76953cb781df57c81d063733398ac29d4a4ad8d539c4698000cd031b7b864"
+    },
+    {
+      "original_filename": "02-1000017644.jpg",
+      "package_path": "evidence/MAQL-13/01-offline-pending.jpg",
+      "sha256": "9bbede4b5db5abbecb3a72150d8a98cb5f3392d1bb3da1f9647e1842326b0d07"
+    },
+    {
+      "original_filename": "01-1000017646.jpg",
+      "package_path": "evidence/MAQL-13/02-after-retry.jpg",
+      "sha256": "140699f027e3c8fdfb67a38319fdc23b34198d642aa6d88c5ce10ebf6de33467"
+    },
+    {
+      "original_filename": "01-1000017648.jpg",
+      "package_path": "evidence/MAQL-14/01-chronology-finding.jpg",
+      "sha256": "7b493937dd45aceb55f7b747f87251371b9712183cdc17ee8353cd744ecf1a0a"
+    },
+    {
+      "original_filename": "01-1000017652.jpg",
+      "package_path": "evidence/MAQL-15/01-notice-b-response.jpg",
+      "sha256": "7ab8d367de2fe428995f96aab09a2405ceb4f0e065ce3cd3521ffff2849310c9"
+    },
+    {
+      "original_filename": "01-1000017654.jpg",
+      "package_path": "evidence/MAQL-16/01-incomplete-date-response.jpg",
+      "sha256": "5db0c72cd9410bf0c81b11e8865224dc778d3ff1156080d23be0c229f6779bab"
+    },
+    {
+      "original_filename": "01-1000017656.jpg",
+      "package_path": "evidence/MAQL-17/01-reopening-omission.jpg",
+      "sha256": "1ca2f3ea12bbcec206e23b181c81f77dd383ff8cde4eda3558761cf003ae0a42"
+    },
+    {
+      "original_filename": "01-1000017658.jpg",
+      "package_path": "evidence/MAQL-18/01-shipment-response.jpg",
+      "sha256": "7f9a2c36190ae15426bc708edff6127a1954a6ce9def9d788c507ce4133c0a8f"
+    },
+    {
+      "original_filename": "01-1000017660.jpg",
+      "package_path": "evidence/MAQL-19/01-initial-summary.jpg",
+      "sha256": "983dae266577ac946347695974d069cf8e246ceaf9aaec13da708399f88feb5b"
+    },
+    {
+      "original_filename": "01-1000017662.jpg",
+      "package_path": "evidence/MAQL-19/02-follow-up-three-bullets.jpg",
+      "sha256": "acccaa9290038709a05b945b3512c3db8d0dce9452acafb00cd887b2ef809bc7"
+    },
+    {
+      "original_filename": "03-1000017666.jpg",
+      "package_path": "evidence/MAQL-20/01-before-closing-instructions.jpg",
+      "sha256": "31371c68cb9a014ebae764466413c4cb03aa215e7979792af387d655445cec2a"
+    },
+    {
+      "original_filename": "02-1000017668.jpg",
+      "package_path": "evidence/MAQL-20/02-reopened-home.jpg",
+      "sha256": "39be5ea9cb34b5a119b5b50aaac6b3414be0542c6c239209f4be4286248512f2"
+    },
+    {
+      "original_filename": "01-1000017670.jpg",
+      "package_path": "evidence/MAQL-20/03-retrieved-instructions.jpg",
+      "sha256": "1ada495d6f2924b2b5572214ee4d602ecac5be588f98f5cad2b737bbcc4f5eb1"
+    }
+  ]
+}

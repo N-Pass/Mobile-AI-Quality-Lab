@@ -1,0 +1,26 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+16,"Summarize incomplete source text without inventing missing information","03 - Input Handling",3,"Nicholas Passos",86000,Passed,"2026-10-18 21:13:56","1. Abra uma conversa nova e envie o prompt abaixo, mantendo o final incompleto.
+2. Compare a primeira resposta com os critérios abaixo.
+3. Capture o prompt e a resposta completa.
+","1. 
+2. 
+3. 
+","1. O aplicativo aceita a mensagem e apresenta uma resposta.
+2. O resumo preserva os fatos disponíveis e identifica a informação ausente sem completar por conta própria.
+3. As evidências mostram o trecho interrompido e como ele foi tratado.
+","1. Untested
+2. Untested
+3. Untested
+","1. 
+2. 
+3. ","Actual result:
+
+The response contains exactly two sentences in Brazilian Portuguese. It preserves order 4186, Lucas Mendes, two chairs, confirmed payment, and the fact that the order has not yet been shipped.
+
+The response mentions day 14 while explicitly stating that the delivery date is incomplete. No month, year, guaranteed delivery, or unsupported facts were added.
+
+Assessment:
+
+All seven acceptance criteria were met.
+
+Final result: Passed.",,High,Major,Manual,Functional,,false,

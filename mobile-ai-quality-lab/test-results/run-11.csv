@@ -1,0 +1,37 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+12,"Preserve a completed conversation after backgrounding and resuming the Android app","04 - Mobile Usability and Connectivity",4,"Nicholas Passos",2526000,Passed,"2026-10-18 20:37:22","1. Open the original swimming pool conversation. Capture the completed response and verify it matches the baseline.
+2. Press the Android Home button to put the app in the background. Wait 30 seconds without closing the app, locking the screen, or changing connectivity.
+3. Open Android Recent Apps and select ChatGPT to return to the app.
+4. Scroll through the original prompt and response, compare the response with the baseline, and capture evidence.
+","1. A piscina do clube Jardim do Lago ficará fechada em 25 de novembro de 2026, das 8h às 12h, para manutenção; a academia continuará funcionando normalmente.
+2. 
+3. 
+4. 
+","1. The original prompt and complete assistant response are accessible. The response matches the baseline.
+2. The Android home screen is displayed, and the app remains in the background for 30 seconds.
+3. The app resumes the same conversation without requiring a new login or manual reopening of the conversation.
+4. 1. The same conversation is displayed after resuming.
+
+2. The original prompt and complete response remain accessible by scrolling.
+
+3. The response text matches the baseline without missing, altered, or duplicated content.
+
+4. No additional message or regenerated response appears.
+
+5. The app responds to scrolling and tapping the message input field.
+
+6. No crash, error dialog, or manual recovery action occurs.
+
+A changed scroll position alone is acceptable if the complete conversation remains accessible. Automatic visual line wrapping is acceptable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+","1. 
+2. 
+3. 
+4. ","Additional verification:
+
+After returning to the app, the tester could scroll through the conversation and tap the message input field normally. No errors, freezing, or manual reopening of the conversation were reported.
+
+Final result: Passed.",,High,Major,Manual,Functional,,false,

@@ -1,0 +1,32 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+17,"Preserve an exception to a general operating schedule","01 - Summary Accuracy",1,"Nicholas Passos",77000,Failed,"2026-10-18 21:18:28","1. Abra uma conversa nova e envie o prompt abaixo uma vez.
+2. Compare a primeira resposta com os critérios abaixo.
+3. Capture o prompt e a resposta completa.
+","1. 
+2. 
+3. 
+","1. Uma resposta completa é apresentada.
+2. O resumo distingue o horário da biblioteca do horário especial de empréstimos e devoluções.
+3. As evidências permitem conferir a regra e sua exceção.
+","1. Passed
+2. Failed
+3. Untested
+","1. 
+2. 
+3. ","Actual result:
+
+The response contains exactly two sentences in Brazilian Portuguese. It correctly preserves the library's general opening hours, the desk closure at noon for a system update, and the continued availability of reading rooms and computers until 18:00.
+
+However, it omits that the borrowing and returns desk resumes service on December 11, 2026, at 08:00.
+
+Expected result:
+
+Include the desk's reopening date and time while preserving the other required information.
+
+Assessment:
+
+Criteria 1–5, 7, and 8: Passed.
+
+Criterion 6: Failed due to omission of the reopening date and time.
+
+Final result: Failed.",,High,Major,Manual,Functional,,false,
